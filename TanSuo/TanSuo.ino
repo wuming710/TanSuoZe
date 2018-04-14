@@ -34,7 +34,7 @@ LedControl lc = LedControl(12, 11, 13, 1);
 void setup() {
 	MotoInit();
 	RedInInit();
-	state = Set;//Test;//
+	state = Test;
 	line = LGaoTai2;
 	Serial.begin(9600);
 
